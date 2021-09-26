@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código fonte / Pré-formatação</h2>
+    
+    <!-- a tag <code> serve para padronizar o espaço das letras que forem aparecer na página html-->
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+
+    <!--Se você quiser colocar a escrita de um código, ex. python, no site, a tag <pre> copia exatamente o que estiver escrito no script do html, incluindo espaços, linhas e etc-->
+    <pre>
+        <code>
+            num = int(input('Digite um número'))
+            if num % 2 == 0:
+                print (f'O número {num} é PAR')
+            else:
+                print (f'O número {num} é ÍMPAR')
+            print ('Fim do programa')
+        </code>
+    </pre>
+
+    <h2>Citações simples</h2>
+    <!-- Para inserir citações devemos usar a tag <q>, do inglês - quote, a qual irá inserir as " " no conteúdo selecionado. isso indicará a citação no site-->
+    <p> Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+
+    <h2>Citações completas</h2>
+    <p>Segundo Marcel Bienfait, no seu livro as bases da fisiologia da terapia manual:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/As_bases_da_fisiologia_da_terapia_manual/0WsryJ-HS_kC?hl=pt-BR&gbpv=1&dq=fisiologia&printsec=frontcover">Como todos os tecidos, o conjuntivo é formado por células conjuntivas: os blastos. ex.: os osteoblastos, os fibroblastos e etc</blockquote>
+
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou gostando bastante!</p>
+
+    <h2>Texto invertido</h2>
+    <bdo dir="rtl">Estou aprendendo HTML e CSS.</bdo>
+
+</body>
+</html>
