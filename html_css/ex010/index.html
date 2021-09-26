@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links e âncoras</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <!--Podemos criar links que abrirão páginas na mesma janela, usando a tag <a>, de "anchor".-->
+    <p>Esse é o canal do Guanabara  <a href="https://youtube.com/cursoemvideo/"> no Youtube</a></p>
+    
+    <!--Podemos fazer com que o mesmo link seja aberto em uma outra aba, para não "perder o cliente", especificando a tag <a> com o target="_blank" -->
+    <p>Esse é o canal do Guanabara  <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external"> no Youtube</a></p>
+
+    <!--Obs.: quando a navegação for no seu próprio site, não se usa o target="_blank"!-->
+
+
+    <h2>Links Internos</h2>
+    <!--Podemos fazer links internos, de nossas próprias páginas.
+    Observe que a página 2 está na mesma pasta do index, e com o comando Control + Space + Seleção do arquivo dá pra fazer o link-->
+    <p>Se você quiser acessar <a href="pag2.html" rel="next">página 2</a> fique a vontade :D</p>
+
+    <h2>Link para HTML que está em outra página</h2>
+    <p>Você pode acessar a <a href="noticias/pag3.html">página de notícias</a></p>
+
+    <h2>Links para download</h2>
+    <ul>
+        <li><a href="01 - História da Internet.pdf" download="01 - História da internet.pdf" type="aplication/pdf">Baixar o livro PDF</a></li>
+        <li><a href="01 - História da Internet.zip" download="01 - História da Internet.zip" type="aplication/zip">Baixar o livro em ZIP</a></li>
+    </ul>
+
+</body>
+</html>
