@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <!-- A tag "picture" indicará que uma imagem foi inserida e a tag "source media" indicará que, caso a tela do navegador atingir um determinado tamanho, ela apresentará a outra imagem para aquele formato. Lembrar de colocar o "source" antes do "img", pq será lido primeiro. -->
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png">
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png">
+        <img src="imagens/foto-g.png" alt="foto tamanho g">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Como colocar áudio no HTML5.</p>
+    <!-- Para isso, devemos usar a tag "audio", bem como, inserir o parâmetro "controls". Ele irá inserir, na página, o controle de áudio (botões play, stop, volume..)-->
+    <audio src="medias/music.mp3" controls></audio>
+    
+</body>
+</html>
