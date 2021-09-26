@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos no HTML</title>
+</head>
+<body>
+    <h1>Inserir vídeos hospedados localmente</h1>
+    <p>Vídeo sobre avelãs</p>
+    <!-- Para isso, usa-se a tag "video". Como complemento, podemos inserir os parâmetros "width" que determina a largura do vídeo na página; "poster" que adiciona uma thumb/foto apresentando o vídeo; "controls" que adiciona os botões de play, stop, etc; e "loop" que faz o vídeo reiniciar quando terminar -->
+    <video src="avelas.mp4" width="200" poster="pexels-jonas-svidras-939955.jpg" controls loop>
+        <source src="avelas.mp4" type="video/mp4">
+    </video>
+
+    <h1>Inserir vídeos do YouTube</h1>
+    <!-- Basta entrar no vídeo do Youtube, clicar em compartilhar, depois em incorporar, copiar e colar o código HTML.-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
