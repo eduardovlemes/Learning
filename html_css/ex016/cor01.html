@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores em CSS</title>
+</head>
+<body>
+    <h1>Cores no CSS</h1>
+
+    <h2 style="background-color: blue; color: white;">Representação por nomes</h2>
+    <p>Representação por nomes. Dentro da tag style, e no seu respectivo parâmetro, podemos escrever a cor que desejamos que o programa já consegue encontrar a cor que desejamos. Contudo, a nomenclatura das cores é limitada.</p>
+
+    <h2 style="background-color: #0000ff; color: #ffffff;">Representação por códigos hexadecimais</h2>
+    <p> "Decimal" tem os 10 dígitos, de zero a nove (0, 1, 2, 3, 4, 5, 6, 7, 8, 9). Acima disso, são combinações entre números decimais. <br> Hexadecimal são 16 algarismos, porém com a junção de números + letras ( 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F). Nesta condição, toda cor será composta por um código com 6 algarismos. Ex. #0000ff = azul <br> Os dois primeiros dígitos dizem respeito a cor vermelha (R) (no ex.00, significa que não tem vermelho). Os dois dígitos do meio, representam a cor verde (G). e os dois últimos a cor azul (B) (no ex. ff). Vermelho, verde e azul (RGB) são cores primárias.</p>
+
+    <h2 style="background-color: rgb(0, 0, 255); color: rgb(255, 255, 255);">Representações por RGB</h2>
+    <p> Cada cor no RGB pode variar em uma escala entre 0 e 255, sendo zero a ausencia desta cor e 255 a sua cor máxima. Nesse sentido, para atingirmos a cor azul do background-color, escrevemos no código "rgb(0, 0, 255)". Isso informa que, para essa cor, não teremos nada de vermelho (R), nada de verde (G) e tudo de azul (B). </p>
+
+    <h2 style="background-color: hsl(240, 100%, 50%); color: hsl(0, 0%, 100%);">Representação por característica de cores HSL</h2>
+    <p> Cada cor também pode ser representada por sua característica, Matiz (Hue), Saturação (S) e Luminosidade (L). No caso do azul do background-color, inserimos o código "hsl(240, 100%, 50%)" </p>
+
+    <p>É possível ajustar a transparência, no qual o código adicionará a função alfa na cor.</p>
+    
+</body>
+</html>
