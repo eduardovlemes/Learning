@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 /* No CSS o # indica a "id" do HTML*/
+/* tudo que for . indicará a "class" presente no HTML*/
 
 body{
     background-color: silver;
@@ -16,4 +17,8 @@ h2{
     text-align: center;
     color: black;
     background-color: coral;
+}
+}
+.text{
+    text-indent: 30px;
 }
