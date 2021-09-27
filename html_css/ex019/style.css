@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* No CSS o # indica a "id" do HTML*/
+
+body{
+    background-color: silver;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: gold;
+}
+h2{
+    color: goldenrod;
+}
+#principal{
+    text-align: center;
+    color: black;
+    background-color: coral;
+}
