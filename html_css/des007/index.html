@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Aqui temos uma imagem que irá se adaptar ao tamanho da tela do navegador. A tag utilizada é &lt;picture&gt;. <br> Dentro, usamos a &lt;img&gt; e; literalmente acima de &lt;img&gt; usa-se a tag &lt;source:media&gt; para indicar que quando o tamanho do navegador mudar, outra imagem será "puxada".</p>
+
+    <picture>
+        <source media="(max-width:650px)" srcset="campo-p.jpg">
+        <source media="(max-width:950px)" srcset="campo-m.jpg">
+        <img src="campo-g.jpg" alt="g">
+    </picture>
+    
+</body>
+</html>
